@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="action_settings">Salir</string>
+
+    <string name="usuario_stringID">Usuario</string>
+    <string name="password_stringID">Password</string>
+    <string name="validarUsuario_stringID">Validar</string>
+    <string name="title_activity_lista">Lista</string>
+    <string name="title_activity_detalle">Detalle</string>
+</resources>

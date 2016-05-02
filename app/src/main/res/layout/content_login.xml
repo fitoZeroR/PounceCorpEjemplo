@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.fito.ejemplopouncecorp.LoginActivity"
+    tools:showIn="@layout/activity_login">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/escudoLogin_vistaID"
+        android:src="@drawable/logo"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/escudoLogin_vistaID"
+        android:layout_marginTop="25dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/usuarioLogin_vistaID"
+                android:inputType="textAutoComplete"
+                android:hint="@string/usuario_stringID"
+                android:gravity="center"
+                android:background="@drawable/rectangle"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/contraseña_vistaID"
+                android:inputType="textPassword"
+                android:hint="@string/password_stringID"
+                android:gravity="center"
+                android:background="@drawable/rectangle"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/usuarioLogin_vistaID"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/validarUsuario_stringID"
+                android:id="@+id/validarse_vistaID"
+                android:textAlignment="center"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/contraseña_vistaID"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/button_selector" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
