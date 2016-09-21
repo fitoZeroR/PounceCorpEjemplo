@@ -50,6 +50,7 @@ public class LoginActivity extends AppCompatActivity {
 
         setSupportActionBar(toolbarTlb);
         Log.i("RLM", "Cambio 1");
+        Log.i("RLM", "Nuevo branch EjerciciosGitKraken");
     }
 
     @Override
