@@ -49,6 +49,7 @@ public class LoginActivity extends AppCompatActivity {
         ButterKnife.bind(this);
 
         setSupportActionBar(toolbarTlb);
+        Log.i("RLM", "Cambio 1");
     }
 
     @Override
